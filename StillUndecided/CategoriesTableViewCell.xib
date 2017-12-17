@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ItemTableViewCell" rowHeight="56" id="Q7M-wB-hcR" customClass="CategoriesTableViewCell" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Q7M-wB-hcR" id="Oer-z1-OxA">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="55.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="League of Justice" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Hg-1j-Sro">
+                        <rect key="frame" x="51" y="17" width="263" height="22"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star_icon_white" translatesAutoresizingMaskIntoConstraints="NO" id="HdC-kV-8R0">
+                        <rect key="frame" x="325" y="20" width="16" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="16" id="0pZ-xt-Rg2"/>
+                            <constraint firstAttribute="height" constant="16" id="bQm-A1-LyJ"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="URj-EX-bjR">
+                        <rect key="frame" x="340.5" y="16" width="22.5" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="Hog-5X-oII"/>
+                            <constraint firstAttribute="width" constant="22.5" id="poc-zG-ZNv"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="20"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ev8-yd-M9l">
+                        <rect key="frame" x="15" y="12" width="24" height="22"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Oct" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H2T-Dk-4SH">
+                        <rect key="frame" x="19" y="34" width="15" height="10"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                        <color key="textColor" red="0.90980392156862744" green="0.90980392156862744" blue="0.90980392156862744" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.16862745100000001" green="0.16862745100000001" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="URj-EX-bjR" firstAttribute="centerY" secondItem="Oer-z1-OxA" secondAttribute="centerY" id="3O9-6s-a02"/>
+                    <constraint firstAttribute="trailing" secondItem="URj-EX-bjR" secondAttribute="trailing" constant="12" id="DsQ-65-Jzn"/>
+                    <constraint firstItem="HdC-kV-8R0" firstAttribute="centerY" secondItem="Oer-z1-OxA" secondAttribute="centerY" id="KAn-2p-tHY"/>
+                    <constraint firstAttribute="trailing" secondItem="HdC-kV-8R0" secondAttribute="trailing" constant="34" id="hqz-Io-RJV"/>
+                    <constraint firstItem="HdC-kV-8R0" firstAttribute="centerY" secondItem="Oer-z1-OxA" secondAttribute="centerY" id="s0z-EB-FNW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.16862745100000001" green="0.16862745100000001" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+            <connections>
+                <outlet property="NameLabel" destination="6Hg-1j-Sro" id="rmw-Pc-DxJ"/>
+                <outlet property="labelDate" destination="Ev8-yd-M9l" id="QXh-IF-fyE"/>
+                <outlet property="labelMonth" destination="H2T-Dk-4SH" id="Oka-ks-8Qu"/>
+                <outlet property="labelName" destination="6Hg-1j-Sro" id="cQf-6H-QDC"/>
+                <outlet property="labelRating" destination="URj-EX-bjR" id="2FE-ll-QAr"/>
+                <outlet property="starIcon" destination="HdC-kV-8R0" id="fPg-2Z-lWw"/>
+            </connections>
+            <point key="canvasLocation" x="34.5" y="110"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="star_icon_white" width="18" height="18"/>
+    </resources>
+</document>
